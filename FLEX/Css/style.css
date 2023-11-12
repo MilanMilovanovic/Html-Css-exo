@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Achafsex";
+    src: url(font/Achafsex.ttf);
+}
+
+@media  screen and (max-width: 100%) {
+.oeuf img{
+        max-width: 90%;
+    }
+    
+}
+
+body{
+    display: flex;
+}
+
+.cube{
+    display: flex;
+
+}
+
+
+nav{
+    background-image: url(image/bois.jpg);
+    background-size: cover;
+    width: 15vw;
+    height: 100vh;
+}
+
+.zoom_logo{
+    width: 320px;
+    height: 240px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    transition: all 0.3s ease;
+}
+
+.logo:hover img{
+    transform:scale(1.25);
+}
+
+#logo img{
+    width: 85%;
+}
+
+header{
+    background-color: burlywood;
+    width: 85vw;
+    height: 20vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font: 140px "Achafsex";
+}
+
+.lesdofus{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    background-image: url(image/fond\ dofus\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 85vw;
+    height: 60vh;
+}
+
+.zoom{
+    width: 320px;
+    height: 240px;
+}
+
+.oeuf{
+    font: 21px "arial";
+    font-weight: bold;
+    padding: 11%;
+    width: 100%;
+    height: 100%;
+}
+
+.oeuf img{
+    transition: all 0.3s ease;
+}
+
+.oeuf:hover img{
+    transform:scale(1.25);
+}
+
+footer{
+    background-color: burlywood;
+    width: 85vw;
+    height: 20vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font: 35px "arial";
+    font-weight: bold;
+    padding: 1%;
+}
+
+*{
+    margin: 0%;
+}
